@@ -7,8 +7,8 @@
     "bridgewise": "./dist/main.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/main.js",
+    "build": "node init && tsc",
+    "start": "node init && node dist/main.js",
     "test": "jest --config jest.config.js"
   },
   "dependencies": {

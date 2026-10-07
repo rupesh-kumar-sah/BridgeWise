@@ -5,11 +5,17 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "jest",
     "lint": "eslint \"src/**/*.ts\" --fix"
   },
-  "keywords": ["bridgewise", "sdk", "metrics", "telemetry", "analytics"],
+  "keywords": [
+    "bridgewise",
+    "sdk",
+    "metrics",
+    "telemetry",
+    "analytics"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.14",

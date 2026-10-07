@@ -34,12 +34,7 @@ build.log
 build_output.log
 
 # local env files - NEVER commit secrets
-.env
-.env.local
 .env.*.local
-.env.development
-.env.staging
-.env.production
 
 # Keep example files but ignore actual env files
 !.env.example
@@ -69,3 +64,4 @@ credentials/
 # Cargo / Rust
 /target
 
+config.bat
